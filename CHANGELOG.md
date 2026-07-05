@@ -6,7 +6,9 @@ All notable changes to LunaTrickcal / opaivmplayer localization project.
 
 ### 公开发布（Stable）
 
-- **发行包**：`LunaTrickcal-v1.0.0-正式版-win64.zip`
+- **GitHub 仓库**：https://github.com/syb666-233/opaivmplayer
+- **Release 下载**：https://github.com/syb666-233/opaivmplayer/releases/tag/v1.0.0-正式版
+- **发行包**：`LunaTrickcal-v1.0.0-正式版-win64.zip`（Release 附件名：`LunaTrickcal-v1.0.0-formal-stable-win64.zip`）
 - Trickcal Revive 韩版 OCR 翻译定制版（基于 LunaTranslator GPLv3）
 - 游戏内黄色译文浮层、OCR 区域排序、单次 OCR（热键 4）
 - 预置 39 条 UI 韩中词典 + 12 万+ 国服文本纠错池
