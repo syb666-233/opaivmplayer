@@ -288,8 +288,13 @@ build_release.bat
 
 ### GitHub
 
+- **仓库**：https://github.com/syb666-233/opaivmplayer
+- **正式版 Release**：https://github.com/syb666-233/opaivmplayer/releases/tag/v1.0.0-正式版
+- **下载附件**：`LunaTrickcal-v1.0.0-formal-stable-win64.zip`（与本地 `dist/LunaTrickcal-v1.0.0-正式版-win64.zip` 内容相同）
+- **标签**：`v1.0.0-正式版`
 - 仓库根目录：`README.md`、`CHANGELOG.md`、`.gitignore`
-- 源码含 patches / scripts / luna_integration；**不含** `runtime/`（体积过大，用户用 zip）
+- 源码含 patches / scripts / luna_integration；**不含** `runtime/` 与 `dist/*.zip`（体积过大，通过 Releases 分发）
+- 同步时间：2026-07-06
 
 ---
 
