@@ -1,0 +1,7 @@
+{
+  "window": "trickcal",
+  "region": "",
+  "interval": 1.2,
+  "engine": "bing",
+  "_comment": "window 默认 trickcal 匹配游戏窗口；勿用 aivm（会误匹配 Cursor 的 opaivmplayer）。游戏在 C:\\opaivmplayer 运行。"
+}

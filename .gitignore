@@ -1,0 +1,52 @@
+# VM / 本地数据
+vms/
+apks/
+download/
+
+# Luna 上游/运行时
+localization_work/LunaTranslator/
+localization_work/LunaTranslator_x64/
+localization_work/LunaTranslator_x64_win10.zip
+localization_work/LunaTrickcal/runtime/
+
+# 发行包（本地 dist/ 构建，通过 GitHub Releases 分发，勿提交 zip）
+localization_work/LunaTrickcal/dist/
+
+# APK 逆向提取物
+localization_work/extracted/
+localization_work/*.apk
+localization_work/**/*.apk
+
+# 大型生成/调试数据
+localization_work/overlay_translator/game_strings_zh.json
+localization_work/overlay_translator/ko_zh_pairs.json
+localization_work/overlay_translator/translation_cache.json
+localization_work/overlay_translator/debug_*.png
+localization_work/frida/ko_captured.jsonl
+localization_work/cn_strings_raw.txt
+localization_work/cn_strings_dialogue.txt
+localization_work/korean_strings_raw.txt
+localization_work/korean_strings_quality.txt
+localization_work/kr_strings_clean.txt
+localization_work/cn_apk_korean_fragments.txt
+
+# 临时调试
+localization_work/LunaTrickcal/_chunk.txt
+localization_work/LunaTrickcal/_exe_*.txt
+
+# 缓存与日志
+**/cache/
+**/trickcal_overlay.log
+localization_work/LunaTrickcal/logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

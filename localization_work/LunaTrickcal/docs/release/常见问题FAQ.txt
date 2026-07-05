@@ -1,0 +1,42 @@
+LunaTrickcal 正式版 — 常见问题 FAQ
+==================================
+
+Q1：双击 start_trickcal_luna.vbs 没反应？
+A：检查是否解压完整；尝试 start_trickcal_luna.bat；确认 runtime\LunaTranslator.exe 存在。
+
+Q2：找不到「选择游戏」按钮？
+A：OCR 模式下该按钮会隐藏，属正常。请用「游戏管理」添加游戏，用「绑定窗口」指定画面。
+
+Q3：按 4 没有翻译？
+A：确认已绑定窗口；翻译条「自动运行」为开启；已框选 OCR 区域；游戏窗口在前台。
+
+Q4：黄色浮层不显示？
+A：确认 trickcal_overlay_enable 为 true（默认已开）；不要只按 3（会清除全部区域）；
+   查看 runtime\userconfig\trickcal_overlay.log 是否有 show/sync 记录。
+
+Q5：译文不准确怎么办？
+A：程序会随使用自动学习（runtime\data\learned_pairs.json）；
+   可在 游戏设置→翻译优化→专有名词翻译 中手动添加词条；
+   多玩 UI 界面，同一韩文多次出现后会逐渐稳定。
+
+Q6：游戏变卡？
+A：Luna 设置里只保留 1 个翻译引擎（推荐 Bing）；
+   OCR 间隔调大（设置→文本输入→OCR→执行周期 ≥ 4 秒）。
+
+Q7：如何导出词典给他人？
+A：双击「导出学习词典.bat」，文件会复制到桌面。
+
+Q8：需要 Frida / adb 吗？
+A：普通用户不需要。正式版已预置 39 条 UI 词典 + 12 万国服文本纠错库。
+
+Q9：与 Luna 原版有什么区别？
+A：本正式版基于 LunaTranslator（GPLv3）定制，增加：
+   - Trickcal 韩中词典与运行时学习
+   - 游戏内黄色译文浮层
+   - OCR 区域排序与单次 OCR 优化
+
+Q10：如何更新版本？
+A：备份 runtime\data\learned_pairs.json 后，解压新版本覆盖；
+   将备份的学习词典复制回 runtime\data\。
+
+技术支持与反馈：见项目 GitHub Issues（仓库 README 中的链接）。

@@ -1,0 +1,132 @@
+{
+  "kr_apk": "com.epidgames.trickcalrevive.base.apk",
+  "cn_apk": "ddlezj_1.4.0_13029_20260512_054636_021a9.apk",
+  "summary": {
+    "kr_entries": 1991,
+    "cn_entries": 1741,
+    "common_paths": 275,
+    "identical_files": 31,
+    "kr_only": 1716,
+    "cn_only": 1466,
+    "localization_strategy": {
+      "kr": "assets/dic + ATG_E.sec 加密，运行时解密（sharedassets split 无明文）",
+      "cn": "sharedassets0.assets.split* 明文繁中，无 dic/libData"
+    }
+  },
+  "metadata_strings": {
+    "kr_ko_count": 83,
+    "kr_zh_count": 21,
+    "cn_ko_count": 1526,
+    "cn_zh_count": 143,
+    "ko_in_both_metadata": [
+      "로비"
+    ]
+  },
+  "cn_sharedassets_sample": {
+    "split_count": 63,
+    "sampled": 8,
+    "ko_utf8": 2,
+    "zh_utf8": 9,
+    "ko_utf16": 1127,
+    "zh_utf16": 73727
+  },
+  "keyword_hits": {
+    "kr": {
+      "StringTable": 18,
+      "TableData": 0,
+      "Localization": 9,
+      "GetString": 4,
+      "TextData": 0,
+      "LanguageManager": 0,
+      "dic": 1249,
+      "ATG_E": 12,
+      "libData": 3,
+      "copyDataToAsset": 0,
+      "sharedassets0": 2,
+      "TextAsset": 0
+    },
+    "cn": {
+      "StringTable": 0,
+      "TableData": 0,
+      "Localization": 0,
+      "GetString": 0,
+      "TextData": 0,
+      "LanguageManager": 0,
+      "dic": 68,
+      "ATG_E": 0,
+      "libData": 0,
+      "copyDataToAsset": 0,
+      "sharedassets0": 126,
+      "TextAsset": 0
+    }
+  },
+  "important_kr_only": [
+    "assets/ATG_E.sec",
+    "assets/ATG_E_x64.sec",
+    "assets/ATG_E_x86.sec",
+    "assets/ATG_E_x86_64.sec",
+    "assets/dic",
+    "assets/libData.so",
+    "res/color/m3_navigation_bar_item_with_indicator_icon_tint.xml",
+    "res/color/m3_navigation_bar_item_with_indicator_label_tint.xml",
+    "res/color/m3_textfield_indicator_text_color.xml",
+    "res/color/mtrl_indicator_text_color.xml",
+    "res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+    "res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+    "res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+    "res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+    "res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+    "res/drawable/m3_tabs_line_indicator.xml",
+    "res/drawable/m3_tabs_rounded_line_indicator.xml",
+    "res/drawable/mtrl_tabs_default_indicator.xml",
+    "res/drawable/nng_selector_indicator.xml"
+  ],
+  "important_cn_only": [
+    "assets/bin/Data/sharedassets0.assets.split0",
+    "assets/bin/Data/sharedassets0.assets.split1",
+    "assets/bin/Data/sharedassets0.assets.split10",
+    "assets/bin/Data/sharedassets0.assets.split11",
+    "assets/bin/Data/sharedassets0.assets.split12",
+    "assets/bin/Data/sharedassets0.assets.split13",
+    "assets/bin/Data/sharedassets0.assets.split14",
+    "assets/bin/Data/sharedassets0.assets.split15",
+    "assets/bin/Data/sharedassets0.assets.split16",
+    "assets/bin/Data/sharedassets0.assets.split17",
+    "assets/bin/Data/sharedassets0.assets.split18",
+    "assets/bin/Data/sharedassets0.assets.split19",
+    "assets/bin/Data/sharedassets0.assets.split2",
+    "assets/bin/Data/sharedassets0.assets.split20",
+    "assets/bin/Data/sharedassets0.assets.split21",
+    "assets/bin/Data/sharedassets0.assets.split22",
+    "assets/bin/Data/sharedassets0.assets.split23",
+    "assets/bin/Data/sharedassets0.assets.split24",
+    "assets/bin/Data/sharedassets0.assets.split25",
+    "assets/bin/Data/sharedassets0.assets.split26"
+  ],
+  "common_but_different": [
+    {
+      "path": "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "kr_size": 37210008,
+      "cn_size": 37627968,
+      "note": "hash_diff"
+    },
+    {
+      "path": "assets/bin/Data/ScriptingAssemblies.json",
+      "kr_size": 7481,
+      "cn_size": 6684,
+      "note": "hash_diff"
+    },
+    {
+      "path": "assets/bin/Data/boot.config",
+      "kr_size": 195,
+      "cn_size": 171,
+      "note": "hash_diff"
+    }
+  ],
+  "recommendations": [
+    "静态 APK 无法建立可靠韩中逐条表；国服 split 与韩版 dic 存储路径不同。",
+    "优先 Frida Hook 抓运行时韩文明文，再与国服文本池配对。",
+    "metadata 中两服共有韩文极少，不宜作为对照主来源。",
+    "国服 sharedassets 明文繁中已用于 game_strings_zh.json 模糊纠错。"
+  ]
+}

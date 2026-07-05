@@ -1,0 +1,10 @@
+mss>=9.0.0
+pillow>=10.0.0
+deep-translator>=1.11.0
+rapidocr-onnxruntime>=1.2.0,<=1.2.3
+opencv-python-headless>=4.8.0
+pywin32>=306
+numpy>=1.26.0
+translators>=5.9.0
+easyocr>=1.7.0
+opencc-python-reimplemented>=0.1.7

@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "game": "Trickcal Revive (com.epidgames.trickcalrevive)",
+  "count": 39,
+  "luna_format": "noundictconfig_ex items: src, dst, info",
+  "entries": [
+    {
+      "src": "소리 없는 기도자의 사정",
+      "dst": "无声祈祷者的情况",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "제발 그만 쉬고 싸우기",
+      "dst": "求你别再休息快战斗",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "빠르게 강해지기",
+      "dst": "快速变强",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "은의 용족의 초대",
+      "dst": "银龙族邀请",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "방과 후 새싹 교실",
+      "dst": "课后新芽教室",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "왕사탕 회복 완료",
+      "dst": "主糖恢复完成",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "스텝업 패키지",
+      "dst": "阶梯礼包",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "트릭컬 패스",
+      "dst": "Trickcal通行证",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "이벤트 팝업",
+      "dst": "活动弹窗",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "속성별 공략",
+      "dst": "属性攻略",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "용족의 초대",
+      "dst": "龙族邀请",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "캐시 상점",
+      "dst": "点券商店",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "강해지기",
+      "dst": "变强",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "레벨 패스",
+      "dst": "等级通行证",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "레벨 파스",
+      "dst": "等级通行证",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "출석체크",
+      "dst": "签到",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "평일 농장",
+      "dst": "平日农场",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "다시 받기",
+      "dst": "重新领取",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "세이용가",
+      "dst": "适龄",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "이벤트",
+      "dst": "活动",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "퀘스트",
+      "dst": "任务",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "왕사탕",
+      "dst": "主糖",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "캐시",
+      "dst": "点券",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "모집",
+      "dst": "招募",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "상점",
+      "dst": "商店",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "사도",
+      "dst": "使徒",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "카드",
+      "dst": "卡牌",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "무장",
+      "dst": "武装",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "극장",
+      "dst": "剧场",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "교단",
+      "dst": "教团",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "모험",
+      "dst": "冒险",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "레벨",
+      "dst": "等级",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "친구",
+      "dst": "好友",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "패스",
+      "dst": "通行证",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "갱신",
+      "dst": "刷新",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "팝업",
+      "dst": "弹窗",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "공략",
+      "dst": "攻略",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "초대",
+      "dst": "邀请",
+      "info": "glossary|conf=1.0"
+    },
+    {
+      "src": "농장",
+      "dst": "农场",
+      "info": "glossary|conf=1.0"
+    }
+  ]
+}
